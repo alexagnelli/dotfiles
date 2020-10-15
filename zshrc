@@ -1,6 +1,6 @@
 [[ "$TERMINAL_EMULATOR" != "JetBrains-JediTerm" && $TERM != "screen" ]] && exec tmux
 
-export ZSH="/home/alessandro/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 export TERM="xterm-256color"
 
