@@ -16,6 +16,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 alias say='espeak-ng'
 
 git_remove_dead_branches() {
